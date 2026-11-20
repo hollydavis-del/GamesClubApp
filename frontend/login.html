@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSU Games Club | Secure Officer Login</title> 
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main>
+    <ul style="list-style-type: none; margin: 0; padding: 0;">
+        <li><a href="index.html">View Inventory</a></li>
+        <li><a href="login.html">Secure Officer Login</a></li>
+
+    </ul>
+    <h1>Officer/Manager Login</h1>
+
+    <form action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form> <!-- lots of additional backend needed here to verify the login credentials and redirect to the officer page if successful. If not, display an error message. -->
+
+
+    
+
+</main>
+</body>
+</html>
