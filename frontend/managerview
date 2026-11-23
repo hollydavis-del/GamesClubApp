@@ -11,6 +11,7 @@
     <ul style="list-style-type: none; margin: 0; padding: 0;">
         <li><a href="index.html">View Inventory</a></li>
         <li><a href="login.html">Secure Officer Login</a></li>
+        <li><a href="changepassword.html">Change Password</a></li>
 
     </ul>
     <h1>Manager Dashboard</h1>
